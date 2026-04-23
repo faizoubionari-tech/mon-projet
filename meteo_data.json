@@ -1,0 +1,30 @@
+[
+    {
+        "ville": "Cotonou",
+        "temperature": 29.05,
+        "conditions": "nuageux",
+        "humidite": 78,
+        "date": "2026-04-23 18:31"
+    },
+    {
+        "ville": "Paris",
+        "temperature": 21.69,
+        "conditions": "ciel dégagé",
+        "humidite": 27,
+        "date": "2026-04-23 18:31"
+    },
+    {
+        "ville": "New York",
+        "temperature": 21.48,
+        "conditions": "ciel dégagé",
+        "humidite": 37,
+        "date": "2026-04-23 18:31"
+    },
+    {
+        "ville": "Préfecture de Tokyo",
+        "temperature": 12.28,
+        "conditions": "légère pluie",
+        "humidite": 95,
+        "date": "2026-04-23 18:31"
+    }
+]
