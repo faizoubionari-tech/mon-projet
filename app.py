@@ -14,6 +14,9 @@ def index():
         try:
             meteo = Meteo(API_KEY)
             nom, temp, conditions, humidite = meteo.get_meteo(ville)
+            if nom.lower() != ville.lower():
+                erreur = f"La ville '{ville}' n'existe pas !"
+            else:
             meteo_data = {
                 "nom": nom,
                 "temp": temp,
