@@ -21,6 +21,8 @@ class Meteo:
             response = requests.get(self.__base_url, params=params, timeout=5)
             response.raise_for_status()
             data = response.json()
+        if data.get("cod") !=200:
+            raise ValueError(f"La ville '{ville}' n'existe pas !")
 
         except requests.exceptions.ConnectionError:
             raise ConnectionError("Impossible de se connecter à l'API !")
