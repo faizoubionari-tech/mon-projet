@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🌤️ Explorateur Météo</title>
+</head>
+<body>
+  <body>
+    <div class="container">
+        <h1>🌤️ Explorateur Météo</h1>
+
+        <form method="POST">
+            <input type="text" name="ville" 
+                   placeholder="Entrez une ville..." required>
+            <br>
+            <button type="submit">🔍 Rechercher</button>
+        </form>
+
+        {% if erreur %}
+        <p class="erreur">❌ {{ erreur }}</p>
+        {% endif %}
+
+        {% if meteo %}
+        <div class="meteo-card">
+            <h2>📍 {{ meteo.nom }}</h2>
+            <p>🌡️ Température : {{ meteo.temp }}°C</p>
+            <p>🌤️ Conditions : {{ meteo.conditions }}</p>
+            <p>💧 Humidité : {{ meteo.humidite }}%</p>
+        </div>
+        {% endif %}
+
+    </div>
+</body>
+</html>  
+</body>
+</html>
