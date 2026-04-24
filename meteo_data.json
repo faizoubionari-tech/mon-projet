@@ -26,5 +26,33 @@
         "conditions": "légère pluie",
         "humidite": 95,
         "date": "2026-04-23 18:31"
+    },
+    {
+        "ville": "Cotonou",
+        "temperature": 29,
+        "conditions": "broken clouds",
+        "humidite": 76,
+        "date": "2026-04-24 09:34"
+    },
+    {
+        "ville": "Paris",
+        "temperature": 13.63,
+        "conditions": "clear sky",
+        "humidite": 45,
+        "date": "2026-04-24 09:34"
+    },
+    {
+        "ville": "New York",
+        "temperature": 15.42,
+        "conditions": "scattered clouds",
+        "humidite": 38,
+        "date": "2026-04-24 09:34"
+    },
+    {
+        "ville": "Tokyo",
+        "temperature": 16.44,
+        "conditions": "clear sky",
+        "humidite": 63,
+        "date": "2026-04-24 09:34"
     }
 ]
